@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menú de Tienda de Tenis FlowShop</title>
+<style>
+    body {
+        background-color: #aed6f1; /* Azul pastel */
+        color: #000; /* Letras negras */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f5f5dc; /* Crema */
+        padding: 10px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .menu-item {
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        text-decoration: none; /* Quita la subrayado predeterminado de los enlaces */
+        color: #000; /* Color de texto negro */
+    }
+    .menu-item:hover {
+        background-color: #d3d3d3; /* Gris claro al pasar el mouse */
+    }
+    .tienda-nombre {
+        position: absolute;
+        top: 20px;
+        color: #000; /* Letras negras */
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase; /* Texto en mayúsculas */
+    }
+</style>
+</head>
+<body>
+    <div class="menu">
+        <a href="catalogo.html" class="menu-item">Catálogo de Productos</a>
+        <a href="carrito.html" class="menu-item">Carrito de Productos</a>
+        <a href="envio-seguimiento.html" class="menu-item">Envío y Seguimiento</a>
+        <a href="recomendaciones.html" class="menu-item">Recomendaciones</a>
+        <a href="notificaciones.html" class="menu-item">Notificaciones</a>
+    </div>
+    <div class="tienda-nombre">TIENDA DE TENIS FLOWSHOP</div>
+</body>
+</html>

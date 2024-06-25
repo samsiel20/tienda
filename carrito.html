@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras - Tienda Jesus</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #aed6f1; /* Azul pastel */
+      color: #000000; /* Letras negras */
+    }
+    
+    header {
+      background-color: #f5f5dc; /* Crema */
+      color: #000000; /* Letras negras */
+      padding: 20px;
+      text-align: right;
+    }
+
+    h1 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    /* Estilos adicionales según sea necesario */
+    .producto {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: #ffffff; /* Fondo blanco para cada producto */
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    }
+
+    .imagen-producto {
+      width: 150px;
+      margin-right: 20px;
+    }
+
+    .texto-producto {
+      flex: 1;
+    }
+
+    .btn-comprar {
+      background-color: #4CAF50;
+      border: none;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin-top: 10px;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Carrito de Compras</h1>
+    <!-- Otros encabezados o contenido relacionado si es necesario -->
+  </header>
+
+  <section id="carrito">
+    <!-- Aquí se mostrarán los productos agregados al carrito -->
+    <div class="producto">
+      <img class="imagen-producto" src="producto1.jpg" alt="Producto 1">
+      <div class="texto-producto">
+        <h3>Producto 1</h3>
+        <p>Descripción del producto 1.</p>
+        <p><strong>Precio:</strong> $10.99</p>
+        <!-- Ajusta la URL del botón según sea necesario -->
+        <a href="#" class="btn-comprar">Comprar</a>
+      </div>
+    </div>
+
+    <!-- Puedes repetir esta estructura para más productos -->
+    <!-- Cambia la imagen, título, descripción y precio para cada producto -->
+
+    <div class="producto">
+      <img class="imagen-producto" src="producto2.jpg" alt="Producto 2">
+      <div class="texto-producto">
+        <h3>Producto 2</h3>
+        <p>Descripción del producto 2.</p>
+        <p><strong>Precio:</strong> $20.99</p>
+        <a href="#" class="btn-comprar">Comprar</a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Otros elementos de la página del carrito de compras -->
+
+</body>
+</html>
+
